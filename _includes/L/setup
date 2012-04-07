@@ -1,0 +1,22 @@
+{% capture lcache %}
+  <!--
+  - Dynamically set liquid variables for working with URLs/paths
+  -->
+  {% if site.L.setup.provider == "custom" %}
+    {% include custom/setup %}
+  {% else %}
+    {% if site.safe and site.L.BASE_PATH and site.L.BASE_PATH != '' %}
+      {% assign BASE_PATH = site.L.BASE_PATH %}
+      {% assign HOME_PATH = site.L.BASE_PATH %}
+    {% else %}
+      {% assign BASE_PATH = nil %}
+      {% assign HOME_PATH = "/" %}
+    {% endif %}
+
+    {% if site.L.ASSET_PATH %}
+      {% assign ASSET_PATH = site.L.ASSET_PATH %}
+    {% else %}
+      {% capture ASSET_PATH %}{{ BASE_PATH }}/assets/themes/{{ page.theme.name }}{% endcapture %}
+    {% endif %}  
+  {% endif %}
+{% endcapture %}{% assign lcache = nil %}

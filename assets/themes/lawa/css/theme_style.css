@@ -1,0 +1,832 @@
+@charset "utf-8";
+/* CSS Document */
+
+body.dark_theme.stretched #wrapper {background:#2b2b2b url(../images/stretched_dark.jpg) no-repeat center top}
+
+body.dark_theme { background:#363636;}
+body.dark_theme,
+body.dark_theme.bg1 { background-image:url(../images/dark_bg1.jpg);}
+body.dark_theme.bg2 { background-image:url(../images/dark_bg2.jpg);}
+body.dark_theme.bg3 { background-image:url(../images/dark_bg3.jpg);}
+body.dark_theme.bg4 { background-image:url(../images/dark_bg4.jpg);}
+body.dark_theme.bg5 { background-image:url(../images/dark_bg5.jpg);}
+
+
+body.dark_theme a.button,
+body.dark_theme a.button * { background-image:url(../images/new_button_dark.jpg);}
+body.dark_theme a.button_big,
+body.dark_theme a.button_big * {background-image:url(../images/new_button_big_dark.jpg);}
+body.dark_theme #wrapper { background-image:url(../images/bg_wrapper_dark.png);}
+body.dark_theme #header { background-image:url(../images/bg_header_dark.jpg);}
+body.dark_theme #content .block_resent .img_box { background-image:url(../images/img_border_206_133_dark.jpg);} 
+body.dark_theme #content .block_about .col_1 .image{ background-image:url(../images/img_1_dark.jpg);}
+body.dark_theme #content .block_tabs .tab_cont .icon.icon_develop,
+body.dark_theme #content .block_about .col_2 .icon_develop { background-image:url(../images/icon_develop_dark.png);}
+body.dark_theme #content .block_tabs .tab_cont .icon.icon_program,
+body.dark_theme #content .block_about .col_2 .icon_program { background-image:url(../images/icon_program_dark.png);}
+body.dark_theme #content .block_tabs .tab_cont .icon.icon_photo,
+body.dark_theme #content .block_about .col_2 .icon_photo { background-image:url(../images/icon_photo_dark.png);}
+body.dark_theme #content .block_tabs .tab_cont .icon.icon_comments,
+body.dark_theme #content .block_about .col_2 .icon_comments { background-image:url(../images/icon_comments_dark.png);}
+body.dark_theme #content .block_featured .column .title.img_1 { background-image: url(../images/icon_from_the_blog1_dark.jpg);}
+body.dark_theme #content .block_featured .column .title.img_2 { background-image: url(../images/icon_from_the_blog2_dark.jpg);}
+body.dark_theme #content .block_other .block_twitter .text {background-image: url(../images/icon_twitter_dark.jpg);}
+body.dark_theme .line2 {background-image: url(../images/line_bg_dark.gif);}
+body.dark_theme #content .block_other .block_portfolio a { background-image:url(../images/icon_link_dark.jpg);}
+body.dark_theme #content .block_other .block_contact .input_box {background-image: url(../images/input_bg_dark.jpg);}
+body.dark_theme #content .block_other .block_contact .textarea_box {background-image: url(../images/textarea_bg_dark.jpg);}
+body.dark_theme .see_big .link_big,
+body.dark_theme .see_big .description { background-image: url(../images/shadow_for_img_dark.png);}
+body.dark_theme .see_big .link_big a { background-image:url(../images/img_see_big2_dark.png);}
+body.dark_theme #my_slider .prev_my_slider, 
+body.dark_theme #my_slider .next_my_slider { background:url(../images/bg_next_prev_dark.png);}
+body.dark_theme #footer { background-image:url(../images/bg_footer_dark.jpg);}
+body.dark_theme #footer #logo_footer a { background-image:url(../images/logo_f_dark.jpg);}
+body.dark_theme #header .block_mid #logo a { background-image:url(../images/logo_dark.jpg);}
+body.dark_theme #content .block_about_services .column .num { background-image:url(../images/bg_num_dark.png);}
+body.dark_theme ul.list li { background-image: url(../images/list_mark_dark.png);}
+body.dark_theme ul.list li:hover { background-image: url(../images/list_mark_dark_a.png);}
+body.dark_theme #content .search_block .search_inp { background-image:url(../images/bg_search_inp_dark.jpg);}
+body.dark_theme #content .search_block .search_submit input { background-image:url(../images/search_button_dark.jpg);}
+body.dark_theme #content .block_last_work .latest_img { background-image:url(../images/img_border_213_125_dark.jpg);}
+body.dark_theme #content .block_about_company .about_pic { background-image:url(../images/img_border_264_173_dark.jpg)}
+body.dark_theme #content .block_portfolio_c2_t2 .img_box a,
+body.dark_theme #content .block_last_work .latest_img a,
+body.dark_theme #content .block_portfolio_c2_wl .img_box a,
+body.dark_theme #content .block_portfolio_c3_t2 .img_box a,
+body.dark_theme #content .block_portfolio_c3_wl .img_box a,
+body.dark_theme #content .block_portfolio_c4_t2 .img_box a,
+body.dark_theme #content .block_portfolio_c4_wl .img_box a,
+body.dark_theme #content .block_similar_projects .block_s_content .img_box a,
+body.dark_theme .block_latest_projects .image_carousel .box_img a,
+body.dark_theme #content .block_portfolio_c4_ws .img_box a,
+body.dark_theme .block_video_prev .img_box a { background-image:url(../images/shadow_for_img2_dark.png);}
+body.dark_theme #content .block_filter {background-image: url(../images/filter_bg_dark.jpg);}
+body.dark_theme #content .block_portfolio_c2_t2 .img_box,
+body.dark_theme #content .block_portfolio_c2 .img_box,
+body.dark_theme #content .block_portfolio_c2_wl .img_box {background-image: url(../images/img_border_445_273_dark.jpg);}
+body.dark_theme #content .block_portfolio_c4 .img_box {background-image: url(../images/img_border_216_161_dark.jpg);}
+body.dark_theme #content .block_portfolio_c2 .img_box .description,
+body.dark_theme #content .block_portfolio_c3 .img_box .description,
+body.dark_theme #content .block_portfolio_c4 .img_box .description {background-image: url(../images/img_p_description_bg_dark.png);}
+body.dark_theme #content .block_portfolio_c2 .img_box .big_mark,
+body.dark_theme #content .block_portfolio_c3 .img_box .big_mark,
+body.dark_theme #content .block_portfolio_c4 .img_box .big_mark {background-image: url(../images/img_see_big_dark.png);}
+body.dark_theme #content .block_portfolio_c2 .img_box>div>a:hover,
+body.dark_theme #content .block_portfolio_c3 .img_box>div>a:hover,
+body.dark_theme #content .block_portfolio_c4 .img_box>div>a:hover { background-image:url(../images/img_p_hover_dark.png);}
+body.dark_theme #content .block_portfolio_items .block_current_item .block_current_item_img {background-image: url(../images/img_border_629_330_dark.jpg);}
+body.dark_theme #content .block_portfolio_items .block_other_items .item:hover, 
+body.dark_theme #content .block_portfolio_items .block_other_items .item.active {background-image: url(../images/bg_active_item_dark.png);}
+body.dark_theme #content .block_other_items #all_rages a { background-image:url(../images/p_items_mark_dark.png);}
+body.dark_theme .block_contact_form .inut_bg { background-image:url(../images/contact_input_bg_dark.jpg);}
+body.dark_theme .block_contact_form .inut_bg.big { background-image:url(../images/contact_input_big_bg_dark.jpg);}
+body.dark_theme .block_contact_form .area_bg { background-image:url(../images/contact_area_bg_dark.jpg);}
+body.dark_theme .block_map {background-image: url(../images/map_border_dark.jpg);}
+body.dark_theme #content .block_text_widget .img_box {background-image: url(../images/img_border_80_80_dark.jpg);}
+body.dark_theme .icon1 { background-image: url(../images/icon1_dark.jpg);} 
+body.dark_theme .icon2 { background-image: url(../images/icon2_dark.jpg);} 
+body.dark_theme .icon3 { background-image: url(../images/icon3_dark.jpg);}
+body.dark_theme .icon4 { background-image: url(../images/icon4_dark.jpg);}
+body.dark_theme .icon_text.b { background-image: url(../images/icon_text_dark.png);}
+body.dark_theme #content .block_blog .title .date,
+body.dark_theme #content .block_blog_type2 .title .date,
+body.dark_theme #content .block_blog_type3 .title .date,
+body.dark_theme #content .block_blog_type5 .title .date,
+body.dark_theme #content .block_blog_type6 .title .date { background-image:url(../images/blog_post_date_dark.png);}
+body.dark_theme #content .block_blog .post_pic { background-image:url(../images/img_border_670_210_dark.jpg);}
+body.dark_theme #content .block_blog_type3 .post_pic { background-image:url(../images/img_border_259_163_dark.jpg);}
+body.dark_theme #content .block_blog_type2 .post_pic { background-image:url(../images/img_border_262_196_dark.jpg);}
+body.dark_theme #content .block_portfolio_c3_t2 .img_box,
+body.dark_theme #content .block_portfolio_c3 .img_box,
+body.dark_theme #content .block_portfolio_c3_wl .img_box { background-image:url(../images/img_border_288_195_dark.jpg);}
+body.dark_theme #content .block_portfolio_c4_t2 .img_box,
+body.dark_theme #content .block_portfolio_c4_wl .img_box { background-image:url(../images/img_border_216_149_dark.jpg);}
+body.dark_theme #content .block_portfolio_slider { background-image: url(../images/p_slider_border_dark.jpg);}
+body.dark_theme #content .block_similar_projects .block_s_content .img_box {background: url(../images/img_border_223_143_dark.jpg) no-repeat;}
+body.dark_theme #content .block_blogs_nav a.next { background-image: url(../images/arrow_mark_dark.gif);}
+body.dark_theme #content .block_blogs_nav a.prev { background-image: url(../images/arrow_mark_l_dark.gif);}
+body.dark_theme #content .block_blog_type5 .post_pic { background-image: url(../images/img_border_420_208_dark.jpg);}
+body.dark_theme #content .block_blog_type4 .post_pic { background-image: url(../images/img_border_510_211_dark.jpg);}
+body.dark_theme #content .block_blog_type6 .post_pic { background-image: url(../images/img_border_320_173_dark.jpg);}
+body.dark_theme #content .post_type1 .post_pic, 
+body.dark_theme #content .post_type2 .post_pic { background-image:url(../images/img_border_670_246_dark.jpg)}
+body.dark_theme #content .post_type2 .blog_post_prev_imgs .img { background-image:url(../images/img_border_67_67_dark.jpg);}
+body.dark_theme .block_comments .box_comment .avatar { background-image:url(../images/user_border_dark.jpg);}
+body.dark_theme .block_comments_form .comment_input { background-image:url(../images/comment_input_bg_dark.jpg);}
+body.dark_theme .block_comments_form .comment_area { background-image:url(../images/comment_area_bg_dark.jpg);}
+body.dark_theme #content .blog_content .img_box.t1_l { background-image:url(../images/img_border_176_113_dark.jpg);}
+body.dark_theme #content .block_portfolio_c4_ws .img_box {background: url(../images/img_border_150_135_dark.jpg);}
+body.dark_theme #foo2_pag a,
+body.dark_theme #content .pages_block li a { background-image: url(../images/bg_pages_buttons_dark.png);}
+body.dark_theme .icon_b1 {background-image: url(../images/icon_b1_dark.jpg);}
+body.dark_theme .icon_b2 {background-image: url(../images/icon_b2_dark.jpg);}
+body.dark_theme .icon_b3 {background-image: url(../images/icon_b3_dark.jpg);}
+
+body.dark_theme ul.list_1 li{background-image: url(../images/list_mark1_dark.jpg);}
+body.dark_theme ul.list_1 li:hover{ background-image: url(../images/list_mark1_a_dark.jpg);}
+body.dark_theme ul.list_2 li{background-image: url(../images/list_mark2_dark.jpg);}
+body.dark_theme ul.list_2 li:hover{ background-image: url(../images/list_mark2_a_dark.jpg);}
+body.dark_theme ul.list_3 li{background-image: url(../images/list_mark3_dark.jpg);}
+body.dark_theme ul.list_3 li:hover{ background-image: url(../images/list_mark3_a_dark.jpg);}
+body.dark_theme ul.list_4 li{background-image: url(../images/list_mark4_dark.jpg);}
+body.dark_theme ul.list_4 li:hover{ background-image: url(../images/list_mark4_a_dark.jpg);}
+body.dark_theme ul.list_5 li{background-image: url(../images/list_mark5_dark.jpg);}
+body.dark_theme ul.list_5 li:hover{ background-image: url(../images/list_mark5_a_dark.jpg);}
+body.dark_theme ul.list_6 li{background-image: url(../images/list_mark6_dark.jpg);}
+body.dark_theme ul.list_6 li:hover{ background-image: url(../images/list_mark6_a_dark.jpg);}
+body.dark_theme table.table_type1 .last { background-image:url(../images/bg_last_td_dark.jpg);}
+body.dark_theme ul.archives_list li a {background-image: url(../images/archives_a_bg_dark.gif);}
+body.dark_theme .block_latest_projects .image_carousel .box_img {background-image: url(../images/img_border_150_135_dark.jpg);}
+body.dark_theme #content .block_blog .title .blog_info li, 
+body.dark_theme #content .block_blog_type2 .title .blog_info li, 
+body.dark_theme #content .block_blog_type3 .title .blog_info li, 
+body.dark_theme #content .block_blog_type4 .blog_info li, 
+body.dark_theme #content .block_blog_type5 .title .blog_info li, 
+body.dark_theme #content .block_blog_type6 .title .blog_info li { background-image: url(../images/line_mark_dark.jpg);}
+body.dark_theme #content .block_blog .title .blog_info li:first-child, 
+body.dark_theme #content .block_blog_type2 .title .blog_info li:first-child, 
+body.dark_theme #content .block_blog_type3 .title .blog_info li:first-child, 
+body.dark_theme #content .block_blog_type5 .title .blog_info li:first-child, 
+body.dark_theme #content .block_blog_type6 .title .blog_info li:first-child,
+body.dark_theme #content .block_blog_type4 .blog_info li {padding: 0px;margin: 0px;background: none;}
+body.dark_theme a.button_green * {background-image:url(../images/button_green_dark.png);}
+body.dark_theme .toggler_blocks a.toggler>span { background-image: url(../images/toggler_mark_dark.png);}
+body.dark_theme .toggler_blocks.type2 a.toggler span,
+body.dark_theme .toggler_blocks.type3 a.toggler span { background-image: url(../images/toggler_mark2_dark.png);}
+body.dark_theme .block_video_prev .img_box { background-image:url(../images/img_border_321_195_dark.jpg);}
+
+
+body.dark_theme .toggler_blocks div.toggler { background-color:#424242;}
+body.dark_theme .toggler_blocks.type2 div.toggler,
+body.dark_theme .toggler_blocks.type3 .toggler,
+body.dark_theme .toggler_blocks.type3 a.toggler.opened { background:none;}
+body.dark_theme .line,
+body.dark_theme .toggler_blocks a.toggler.opened { background:#333333;}
+body.dark_theme #content .block_tabs .tabs_buttons li a,
+body.dark_theme .toggler_blocks a.toggler { background:#3d3d3d;}
+body.dark_theme #content .block_tabs .tab_cont,
+body.dark_theme #content .block_tabs .tabs_buttons li a.active,
+body.dark_theme #menu>ul>li ul,
+body.dark_theme .quote,
+body.dark_theme table.table_type1 td,
+body.dark_theme .pricing_table .title { background:#363636;}
+body.dark_theme #content .block_blog_right .block_pages li a{ background-color:#2b2b2b;}
+body.dark_theme #content .block_blog_right .block_pages li a:hover { background-color:#292929;}
+body.dark_theme table.table_type1 td:first-child,
+body.dark_theme .pricing_table .column{ background-color:#303030;}
+
+body.dark_theme .pricing_table .title p{ text-shadow:none;}
+body.dark_theme .pricing_table .column.special {
+	-webkit-box-shadow: #1b1b1b 0px 2px 5px;
+	-moz-box-shadow: #1b1b1b 0px 2px 5px;
+	box-shadow: #1b1b1b 0px 2px 5px;
+	behavior: url(js/PIE.htc);
+}
+
+body.dark_theme #content .page_title .page_description,
+body.dark_theme #content .block_testimonials .testimonial .text,
+body.dark_theme .quote2,
+body.dark_theme ul.list2 li,
+body.dark_theme #menu>ul,
+body.dark_theme #content .block_recent_comments li,
+body.dark_theme #content .block_blog_right .block_recent_posts .post,
+body.dark_theme #content .block_blog_right .block_pages li,
+body.dark_theme #content .tags,
+body.dark_theme .toggler_blocks.type3 .toggler { border-color: #333;}
+body.dark_theme #footer .block_copyrights,
+body.dark_theme #content .block_other .block_blog .img,
+body.dark_theme #content .block_recent_posts .post .img { border-color: #454545;}
+body.dark_theme #content .block_tabs .tabs_buttons li a,
+body.dark_theme #content .block_tabs .tab_cont,
+body.dark_theme #content .block_portfolio_items .block_other_items .items,
+body.dark_theme #menu>ul>li ul,
+body.dark_theme #menu>ul>li ul>li,
+body.dark_theme table.table_type1,
+body.dark_theme table.table_type1 td,
+body.dark_theme .pricing_table .column,
+body.dark_theme .pricing_table .column * { border-color:#404040}
+body.dark_theme #content .block_tabs .tabs_buttons li a.active {border-bottom-color:#363636;}
+body.dark_theme .toggler_blocks .toggler,
+body.dark_theme .toggler_blocks a.toggler.first { border-color:#424242;}
+body.dark_theme #content .block_filter li { border-right-color: #424242;}
+body.dark_theme #content .block_filter li { border-left-color: #2e2d2d;}
+body.dark_theme .quote { border-color: #303030;}
+
+body.dark_theme a.button *,
+body.dark_theme a.button_big * { color:#9e9e9e;}
+body.dark_theme #menu>ul>li>a { color:#bbb;}
+body.dark_theme #content .block_recent_comments li a { color:#666;}
+body.dark_theme #content .block_other .block_portfolio a:hover,
+body.dark_theme #content .block_other .block_blog .text p a:hover,
+body.dark_theme #content .block_recent_posts .post .text p a:hover,
+body.dark_theme #menu>ul>li>a:hover,
+body.dark_theme #menu>ul>li>a.active,
+body.dark_theme h5 a:hover,
+body.dark_theme #content .block_portfolio_c2_t2 .description a:hover,
+body.dark_theme #content .block_portfolio_c2_wl .description a:hover,
+body.dark_theme #content .block_portfolio_c3_t2 .description a:hover,
+body.dark_theme #content .block_portfolio_c3_wl .description a:hover,
+body.dark_theme #content .block_portfolio_c4_t2 .description a:hover,
+body.dark_theme #content .block_portfolio_c4_wl .description a:hover,
+body.dark_theme #menu>ul>li ul>li a:hover, 
+body.dark_theme #menu>ul>li ul>li a.active,
+body.dark_theme #content .block_recent_comments li a:hover,
+body.dark_theme .block_comments .box_comment .comment .comment_title .user a:hover,
+body.dark_theme #content .block_portfolio_c4_ws .description a:hover,
+body.dark_theme #foo2_pag a.selected,
+body.dark_theme #content .pages_block li a.active,
+body.dark_theme #content .pages_block li a:active {color:#d42d17;}
+
+body.dark_theme #menu>ul>li>a>span { color:#595757;}
+body.dark_theme p,
+body.dark_theme #footer .block_copyrights p,
+body.dark_theme #content .page_title .page_description,
+body.dark_theme #content .page_title .page_navigation li a,
+body.dark_theme #content .block_testimonials .testimonial .author,
+body.dark_theme #content .block_tabs .tab_cont .content .tab_cols a,
+body.dark_theme #content .block_blog .title .blog_info li, 
+body.dark_theme #content .block_blog_type2 .title .blog_info li, 
+body.dark_theme #content .block_blog_type3 .title .blog_info li, 
+body.dark_theme #content .block_blog_type4 .blog_info li, 
+body.dark_theme #content .block_blog_type5 .title .blog_info li, 
+body.dark_theme #content .block_blog_type6 .title .blog_info li,
+body.dark_theme #menu>ul>li ul>li a,
+body.dark_theme #content .block_blog_right .block_pages li a,
+body.dark_theme #content .post_type2 .blog_info li,
+body.dark_theme .block_comments_form .comment_area > span,
+body.dark_theme .block_comments_form .comment_input > span,
+body.dark_theme .pricing_table .price_block .price_info,
+body.dark_theme .pricing_table .info p { color:#808080;}
+body.dark_theme h1,
+body.dark_theme h2,
+body.dark_theme h3,
+body.dark_theme h3 a,
+body.dark_theme h4,
+body.dark_theme #content .block_tabs .tabs_buttons li a.active,
+body.dark_theme #content .block_p_item .block_p_info p b,
+body.dark_theme .block_comments .box_comment .comment .comment_title .user, 
+body.dark_theme .block_comments .box_comment .comment .comment_title .user a,
+body.dark_theme table.table_type1 .title,
+body.dark_theme table.table_type1 .price sup,
+body.dark_theme table.table_type1 .price,
+body.dark_theme .pricing_table .title p,
+body.dark_theme .pricing_table .price_block .price,
+body.dark_theme .pricing_table .column.special .price_block .price{ color:#bdbdbd;}
+body.dark_theme h5,
+body.dark_theme h5 a,
+body.dark_theme #content .block_recent_posts .post .text p a,
+body.dark_theme #content .block_other .block_blog .text p a,
+body.dark_theme #content .block_portfolio_c2 .img_box .title,
+body.dark_theme #content .block_portfolio_c2_t2 .description a,
+body.dark_theme #content .block_portfolio_c2_wl .description a,
+body.dark_theme #content .block_portfolio_c3_t2 .description a,
+body.dark_theme #content .block_portfolio_c3 .img_box .title,
+body.dark_theme #content .block_portfolio_c3_wl .description a,
+body.dark_theme #content .block_portfolio_c4 .img_box .title,
+body.dark_theme #content .block_portfolio_c4_t2 .description a,
+body.dark_theme #content .block_portfolio_c4_wl .description a,
+body.dark_theme #content .block_blog_right .block_pages li a.active,
+body.dark_theme .block_latest_projects .image_carousel .box_img .title,
+body.dark_theme #content .block_portfolio_c4_ws .description a,
+body.dark_theme .toggler_blocks.type3 a.toggler span,
+body.dark_theme .toggler_blocks.type2 a.toggler span { color: #a8a8a8;}
+body.dark_theme #content .block_testimonials .testimonial .text,
+body.dark_theme #content .block_about_company .quote2{ color:#5c5c5c;}
+body.dark_theme #content .block_other .block_blog .text .date,
+body.dark_theme #content .block_other .block_twitter .text .date,
+body.dark_theme #content .block_featured .column .title li { color:#737373;}
+body.dark_theme #content .block_other .block_portfolio a,
+body.dark_theme #content .block_other .block_twitter .text p { color:#8a8a8a;}
+body.dark_theme .see_big .description .alt { color:#616161;}
+body.dark_theme #content .page_title .page_navigation li{ color:#4c4c4c;}
+body.dark_theme #content .block_last_work .description .alt,
+body.dark_theme #content .block_recent_posts .post .text .date,
+body.dark_theme #content .block_about_services .column .title p,
+body.dark_theme #content .block_recent_posts .post .text .date li{color:#5f5f5f}
+body.dark_theme #content .block_about_services .column .num{color:#939393;}
+body.dark_theme a.button.green *,
+body.dark_theme a.button.green:hover *,
+body.dark_theme a.button.blue *,
+body.dark_theme a.button.blue:hover *,
+body.dark_theme a.button.dark_red *,
+body.dark_theme a.button.dark_red:hover *,
+body.dark_theme a.button.orange *,
+body.dark_theme a.button.orange:hover *,
+body.dark_theme a.button.purple *,
+body.dark_theme a.button.purple:hover *,
+body.dark_theme a.button.yellow *,
+body.dark_theme a.button.yellow:hover *,
+body.dark_theme a.button_big.green *,
+body.dark_theme a.button_big.green:hover *,
+body.dark_theme a.button_big.blue *,
+body.dark_theme a.button_big.blue:hover *,
+body.dark_theme a.button_big.dark_red *,
+body.dark_theme a.button_big.dark_red:hover *,
+body.dark_theme a.button_big.orange *,
+body.dark_theme a.button_big.orange:hover *,
+body.dark_theme a.button_big.purple *,
+body.dark_theme a.button_big.purple:hover *,
+body.dark_theme a.button_big.yellow *,
+body.dark_theme a.button_big.yellow:hover * { color: #fff;}
+
+
+
+body#orange.dark_theme #header .block_mid #logo a { background-image:url(../images/logo_orange_dark.jpg);}
+body#orange #header .block_mid #logo a{background-image:url(../images/logo_orange.jpg);}
+body#orange #menu>ul>li ul>li a:hover, 
+body#orange #menu>ul>li ul>li a.active { color:#e65a47;}
+body#orange #menu>ul>li>a:hover, 
+body#orange #menu>ul>li>a.active,
+body#orange #content .block_slogan p span,
+body#orange a.button:hover *,
+body#orange a.button_big:hover *,
+body#orange h2 a:hover,
+body#orange h3 a:hover,
+body#orange h4 a:hover,
+body#orange h5 a:hover,
+body#orange ul.list_1 li a:hover,
+body#orange ul.list_2 li a:hover,
+body#orange ul.list_3 li a:hover,
+body#orange ul.list_4 li a:hover,
+body#orange ul.list_5 li a:hover,
+body#orange ul.list_6 li a:hover,
+body#orange .see_big .description .title a:hover,
+body#orange #content .block_other .block_twitter .text a,
+body#orange #content .block_other .block_blog .text p a:hover,
+body#orange .main_link,
+body#orange #content .block_about_services .column .num,
+body#orange #content .block_tabs .tab_cont .content .tab_cols a:hover,
+body#orange #content .block_recent_posts .post .text p a:hover,
+body#orange ul.list2 li a:hover,
+body#orange .toggler_blocks a.toggler.acordion.opened span,
+body#orange .block_table_type1 h3 span, 
+body#orange .block_pricing_table h3 span,
+body#orange .view_more:hover,
+body#orange table.table_type1 .title span,
+body#orange .pricing_table .info p b,
+body#orange #sitemap>li, 
+body#orange #sitemap>li>a,
+body#orange ul.archives_list li a,
+body#orange #content .block_filter li a:hover, 
+body#orange #content .block_filter li a.active,
+body#orange #content .block_portfolio_c2 .img_box>div>a:hover .title,
+body#orange #content .block_portfolio_c2_t2 .description a:hover,
+body#orange #content .block_portfolio_c3 .img_box>div>a:hover .title,
+body#orange #content .block_portfolio_c3_t2 .description a:hover,
+body#orange #content .block_portfolio_c4 .img_box>div>a:hover .title,
+body#orange #content .block_portfolio_c4_t2 .description a:hover,
+body#orange #content .block_portfolio_c2_wl .description a:hover,
+body#orange #content .block_portfolio_c3_wl .description a:hover,
+body#orange #content .block_portfolio_c4_wl .description a:hover,
+body#orange #content .block_portfolio_c4_ws .description a:hover,
+body#orange #content .block_p_item .block_p_info a,
+body#orange #content .block_blog .title .blog_info li a, 
+body#orange #content .block_blog_type2 .title .blog_info li a, 
+body#orange #content .block_blog_type3 .title .blog_info li a, 
+body#orange #content .block_blog_type4 .blog_info li a, 
+body#orange #content .block_blog_type5 .title .blog_info li a, 
+body#orange #content .block_blog_type6 .title .blog_info li a,
+body#orange #content .block_blogs_nav a:hover,
+body#orange #content .block_recent_comments li a:hover,
+body#orange #content .tags a,
+body#orange .block_comments .box_comment .comment .reply a,
+body#orange .block_comments .box_comment .comment .comment_title .user a:hover,
+body#orange .block_comments_form .comment_input span span,
+body#orange #content .post_type2 .blog_info li a,
+body#orange .block_contact_us .title p { color:#f05922;}
+body#orange #my_slider .prev_my_slider a span,
+body#orange #my_slider .next_my_slider a span { background-color:#f05922;}
+body#orange #content .block_other .block_portfolio a:hover { background-position: left -25px; color:#f05922;}
+body#orange .ad-image-description {border-left: 5px solid #f05922;}
+body#orange #footer #logo_footer a { background:url(../images/logo_f_orange.jpg) no-repeat;}
+body#orange.dark_theme #footer #logo_footer a { background-image:url(../images/logo_f_orange_dark.jpg);}
+
+
+body#green.dark_theme #header .block_mid #logo a { background-image:url(../images/logo_green_dark.jpg);}
+body#green #header .block_mid #logo a{background-image:url(../images/logo_green.jpg);}
+body#green #menu>ul>li ul>li a:hover, 
+body#green #menu>ul>li ul>li a.active { color:#8aad50;}
+body#green #menu>ul>li>a:hover, 
+body#green #menu>ul>li>a.active,
+body#green #content .block_slogan p span,
+body#green a.button:hover *,
+body#green a.button_big:hover *,
+body#green h2 a:hover,
+body#green h3 a:hover,
+body#green h4 a:hover,
+body#green h5 a:hover,
+body#green ul.list_1 li a:hover,
+body#green ul.list_2 li a:hover,
+body#green ul.list_3 li a:hover,
+body#green ul.list_4 li a:hover,
+body#green ul.list_5 li a:hover,
+body#green ul.list_6 li a:hover,
+body#green .see_big .description .title a:hover,
+body#green #content .block_other .block_twitter .text a,
+body#green #content .block_other .block_blog .text p a:hover,
+body#green .main_link,
+body#green #content .block_about_services .column .num,
+body#green #content .block_tabs .tab_cont .content .tab_cols a:hover,
+body#green #content .block_recent_posts .post .text p a:hover,
+body#green ul.list2 li a:hover,
+body#green .toggler_blocks a.toggler.acordion.opened span,
+body#green .block_table_type1 h3 span, 
+body#green .block_pricing_table h3 span,
+body#green .view_more:hover,
+body#green table.table_type1 .title span,
+body#green .pricing_table .info p b,
+body#green #sitemap>li, 
+body#green #sitemap>li>a,
+body#green ul.archives_list li a,
+body#green #content .block_filter li a:hover, 
+body#green #content .block_filter li a.active,
+body#green #content .block_portfolio_c2 .img_box>div>a:hover .title,
+body#green #content .block_portfolio_c2_t2 .description a:hover,
+body#green #content .block_portfolio_c3 .img_box>div>a:hover .title,
+body#green #content .block_portfolio_c3_t2 .description a:hover,
+body#green #content .block_portfolio_c4 .img_box>div>a:hover .title,
+body#green #content .block_portfolio_c4_t2 .description a:hover,
+body#green #content .block_portfolio_c2_wl .description a:hover,
+body#green #content .block_portfolio_c3_wl .description a:hover,
+body#green #content .block_portfolio_c4_wl .description a:hover,
+body#green #content .block_portfolio_c4_ws .description a:hover,
+body#green #content .block_p_item .block_p_info a,
+body#green #content .block_blog .title .blog_info li a, 
+body#green #content .block_blog_type2 .title .blog_info li a, 
+body#green #content .block_blog_type3 .title .blog_info li a, 
+body#green #content .block_blog_type4 .blog_info li a, 
+body#green #content .block_blog_type5 .title .blog_info li a, 
+body#green #content .block_blog_type6 .title .blog_info li a,
+body#green #content .block_blogs_nav a:hover,
+body#green #content .block_recent_comments li a:hover,
+body#green #content .tags a,
+body#green .block_comments .box_comment .comment .reply a,
+body#green .block_comments .box_comment .comment .comment_title .user a:hover,
+body#green .block_comments_form .comment_input span span,
+body#green #content .post_type2 .blog_info li a,
+body#green .block_contact_us .title p { color:#8aad50;}
+body#green #my_slider .prev_my_slider a span,
+body#green #my_slider .next_my_slider a span { background-color:#8aad50;}
+body#green #content .block_other .block_portfolio a:hover { background-position: left -38px; color:#8aad50;}
+body#green .ad-image-description {border-left: 5px solid #8aad50;}
+body#green #footer #logo_footer a { background:url(../images/logo_f_green.jpg) no-repeat;}
+body#green.dark_theme #footer #logo_footer a { background-image:url(../images/logo_f_green_dark.jpg);}
+
+
+body#blue.dark_theme #header .block_mid #logo a { background-image:url(../images/logo_blue_dark.jpg);}
+body#blue #header .block_mid #logo a{background-image:url(../images/logo_blue.jpg);}
+body#blue #menu>ul>li ul>li a:hover, 
+body#blue #menu>ul>li ul>li a.active { color:#3096d0;}
+body#blue #menu>ul>li>a:hover, 
+body#blue #menu>ul>li>a.active,
+body#blue #content .block_slogan p span,
+body#blue a.button:hover *,
+body#blue a.button_big:hover *,
+body#blue h2 a:hover,
+body#blue h3 a:hover,
+body#blue h4 a:hover,
+body#blue h5 a:hover,
+body#blue ul.list_1 li a:hover,
+body#blue ul.list_2 li a:hover,
+body#blue ul.list_3 li a:hover,
+body#blue ul.list_4 li a:hover,
+body#blue ul.list_5 li a:hover,
+body#blue ul.list_6 li a:hover,
+body#blue .see_big .description .title a:hover,
+body#blue #content .block_other .block_twitter .text a,
+body#blue #content .block_other .block_blog .text p a:hover,
+body#blue .main_link,
+body#blue #content .block_about_services .column .num,
+body#blue #content .block_tabs .tab_cont .content .tab_cols a:hover,
+body#blue #content .block_recent_posts .post .text p a:hover,
+body#blue ul.list2 li a:hover,
+body#blue .toggler_blocks a.toggler.acordion.opened span,
+body#blue .block_table_type1 h3 span, 
+body#blue .block_pricing_table h3 span,
+body#blue .view_more:hover,
+body#blue table.table_type1 .title span,
+body#blue .pricing_table .info p b,
+body#blue #sitemap>li, 
+body#blue #sitemap>li>a,
+body#blue ul.archives_list li a,
+body#blue #content .block_filter li a:hover, 
+body#blue #content .block_filter li a.active,
+body#blue #content .block_portfolio_c2 .img_box>div>a:hover .title,
+body#blue #content .block_portfolio_c2_t2 .description a:hover,
+body#blue #content .block_portfolio_c3 .img_box>div>a:hover .title,
+body#blue #content .block_portfolio_c3_t2 .description a:hover,
+body#blue #content .block_portfolio_c4 .img_box>div>a:hover .title,
+body#blue #content .block_portfolio_c4_t2 .description a:hover,
+body#blue #content .block_portfolio_c2_wl .description a:hover,
+body#blue #content .block_portfolio_c3_wl .description a:hover,
+body#blue #content .block_portfolio_c4_wl .description a:hover,
+body#blue #content .block_portfolio_c4_ws .description a:hover,
+body#blue #content .block_p_item .block_p_info a,
+body#blue #content .block_blog .title .blog_info li a, 
+body#blue #content .block_blog_type2 .title .blog_info li a, 
+body#blue #content .block_blog_type3 .title .blog_info li a, 
+body#blue #content .block_blog_type4 .blog_info li a, 
+body#blue #content .block_blog_type5 .title .blog_info li a, 
+body#blue #content .block_blog_type6 .title .blog_info li a,
+body#blue #content .block_blogs_nav a:hover,
+body#blue #content .block_recent_comments li a:hover,
+body#blue #content .tags a,
+body#blue .block_comments .box_comment .comment .reply a,
+body#blue .block_comments .box_comment .comment .comment_title .user a:hover,
+body#blue .block_comments_form .comment_input span span,
+body#blue #content .post_type2 .blog_info li a,
+body#blue .block_contact_us .title p { color:#3096d0;}
+body#blue #my_slider .prev_my_slider a span,
+body#blue #my_slider .next_my_slider a span { background-color:#3096d0;}
+body#blue #content .block_other .block_portfolio a:hover { background-position: left -51px; color:#3096d0;}
+body#blue .ad-image-description {border-left: 5px solid #3096d0;}
+body#blue #footer #logo_footer a { background:url(../images/logo_f_blue.jpg) no-repeat;}
+body#blue.dark_theme #footer #logo_footer a { background-image:url(../images/logo_f_blue_dark.jpg);}
+
+
+body#yellow.dark_theme #header .block_mid #logo a { background-image:url(../images/logo_yellow_dark.jpg);}
+body#yellow #header .block_mid #logo a{background-image:url(../images/logo_yellow.jpg);}
+body#yellow #menu>ul>li ul>li a:hover, 
+body#yellow #menu>ul>li ul>li a.active { color:#f0b70c;}
+body#yellow #menu>ul>li>a:hover, 
+body#yellow #menu>ul>li>a.active,
+body#yellow #content .block_slogan p span,
+body#yellow a.button:hover *,
+body#yellow a.button_big:hover *,
+body#yellow h2 a:hover,
+body#yellow h3 a:hover,
+body#yellow h4 a:hover,
+body#yellow h5 a:hover,
+body#yellow ul.list_1 li a:hover,
+body#yellow ul.list_2 li a:hover,
+body#yellow ul.list_3 li a:hover,
+body#yellow ul.list_4 li a:hover,
+body#yellow ul.list_5 li a:hover,
+body#yellow ul.list_6 li a:hover,
+body#yellow .see_big .description .title a:hover,
+body#yellow #content .block_other .block_twitter .text a,
+body#yellow #content .block_other .block_blog .text p a:hover,
+body#yellow .main_link,
+body#yellow #content .block_about_services .column .num,
+body#yellow #content .block_tabs .tab_cont .content .tab_cols a:hover,
+body#yellow #content .block_recent_posts .post .text p a:hover,
+body#yellow ul.list2 li a:hover,
+body#yellow .toggler_blocks a.toggler.acordion.opened span,
+body#yellow .block_table_type1 h3 span, 
+body#yellow .block_pricing_table h3 span,
+body#yellow .view_more:hover,
+body#yellow table.table_type1 .title span,
+body#yellow .pricing_table .info p b,
+body#yellow #sitemap>li, 
+body#yellow #sitemap>li>a,
+body#yellow ul.archives_list li a,
+body#yellow #content .block_filter li a:hover, 
+body#yellow #content .block_filter li a.active,
+body#yellow #content .block_portfolio_c2 .img_box>div>a:hover .title,
+body#yellow #content .block_portfolio_c2_t2 .description a:hover,
+body#yellow #content .block_portfolio_c3 .img_box>div>a:hover .title,
+body#yellow #content .block_portfolio_c3_t2 .description a:hover,
+body#yellow #content .block_portfolio_c4 .img_box>div>a:hover .title,
+body#yellow #content .block_portfolio_c4_t2 .description a:hover,
+body#yellow #content .block_portfolio_c2_wl .description a:hover,
+body#yellow #content .block_portfolio_c3_wl .description a:hover,
+body#yellow #content .block_portfolio_c4_wl .description a:hover,
+body#yellow #content .block_portfolio_c4_ws .description a:hover,
+body#yellow #content .block_p_item .block_p_info a,
+body#yellow #content .block_blog .title .blog_info li a, 
+body#yellow #content .block_blog_type2 .title .blog_info li a, 
+body#yellow #content .block_blog_type3 .title .blog_info li a, 
+body#yellow #content .block_blog_type4 .blog_info li a, 
+body#yellow #content .block_blog_type5 .title .blog_info li a, 
+body#yellow #content .block_blog_type6 .title .blog_info li a,
+body#yellow #content .block_blogs_nav a:hover,
+body#yellow #content .block_recent_comments li a:hover,
+body#yellow #content .tags a,
+body#yellow .block_comments .box_comment .comment .reply a,
+body#yellow .block_comments .box_comment .comment .comment_title .user a:hover,
+body#yellow .block_comments_form .comment_input span span,
+body#yellow #content .post_type2 .blog_info li a,
+body#yellow .block_contact_us .title p { color:#f0b70c;}
+body#yellow #my_slider .prev_my_slider a span,
+body#yellow #my_slider .next_my_slider a span { background-color:#f0b70c;}
+body#yellow #content .block_other .block_portfolio a:hover { background-position: left -64px; color:#f0b70c;}
+body#yellow .ad-image-description {border-left: 5px solid #f0b70c;}
+body#yellow #footer #logo_footer a { background:url(../images/logo_f_yellow.jpg) no-repeat;}
+body#yellow.dark_theme #footer #logo_footer a { background-image:url(../images/logo_f_yellow_dark.jpg);}
+
+
+body#purple.dark_theme #header .block_mid #logo a { background-image:url(../images/logo_purple_dark.jpg);}
+body#purple #header .block_mid #logo a{background-image:url(../images/logo_purple.jpg);}
+body#purple #menu>ul>li ul>li a:hover, 
+body#purple #menu>ul>li ul>li a.active { color:#bd1550;}
+body#purple #menu>ul>li>a:hover, 
+body#purple #menu>ul>li>a.active,
+body#purple #content .block_slogan p span,
+body#purple a.button:hover *,
+body#purple a.button_big:hover *,
+body#purple h2 a:hover,
+body#purple h3 a:hover,
+body#purple h4 a:hover,
+body#purple h5 a:hover,
+body#purple ul.list_1 li a:hover,
+body#purple ul.list_2 li a:hover,
+body#purple ul.list_3 li a:hover,
+body#purple ul.list_4 li a:hover,
+body#purple ul.list_5 li a:hover,
+body#purple ul.list_6 li a:hover,
+body#purple .see_big .description .title a:hover,
+body#purple #content .block_other .block_twitter .text a,
+body#purple #content .block_other .block_blog .text p a:hover,
+body#purple .main_link,
+body#purple #content .block_about_services .column .num,
+body#purple #content .block_tabs .tab_cont .content .tab_cols a:hover,
+body#purple #content .block_recent_posts .post .text p a:hover,
+body#purple ul.list2 li a:hover,
+body#purple .toggler_blocks a.toggler.acordion.opened span,
+body#purple .block_table_type1 h3 span, 
+body#purple .block_pricing_table h3 span,
+body#purple .view_more:hover,
+body#purple table.table_type1 .title span,
+body#purple .pricing_table .info p b,
+body#purple #sitemap>li, 
+body#purple #sitemap>li>a,
+body#purple ul.archives_list li a,
+body#purple #content .block_filter li a:hover, 
+body#purple #content .block_filter li a.active,
+body#purple #content .block_portfolio_c2 .img_box>div>a:hover .title,
+body#purple #content .block_portfolio_c2_t2 .description a:hover,
+body#purple #content .block_portfolio_c3 .img_box>div>a:hover .title,
+body#purple #content .block_portfolio_c3_t2 .description a:hover,
+body#purple #content .block_portfolio_c4 .img_box>div>a:hover .title,
+body#purple #content .block_portfolio_c4_t2 .description a:hover,
+body#purple #content .block_portfolio_c2_wl .description a:hover,
+body#purple #content .block_portfolio_c3_wl .description a:hover,
+body#purple #content .block_portfolio_c4_wl .description a:hover,
+body#purple #content .block_portfolio_c4_ws .description a:hover,
+body#purple #content .block_p_item .block_p_info a,
+body#purple #content .block_blog .title .blog_info li a, 
+body#purple #content .block_blog_type2 .title .blog_info li a, 
+body#purple #content .block_blog_type3 .title .blog_info li a, 
+body#purple #content .block_blog_type4 .blog_info li a, 
+body#purple #content .block_blog_type5 .title .blog_info li a, 
+body#purple #content .block_blog_type6 .title .blog_info li a,
+body#purple #content .block_blogs_nav a:hover,
+body#purple #content .block_recent_comments li a:hover,
+body#purple #content .tags a,
+body#purple .block_comments .box_comment .comment .reply a,
+body#purple .block_comments .box_comment .comment .comment_title .user a:hover,
+body#purple .block_comments_form .comment_input span span,
+body#purple #content .post_type2 .blog_info li a,
+body#purple .block_contact_us .title p { color:#bd1550;}
+body#purple #my_slider .prev_my_slider a span,
+body#purple #my_slider .next_my_slider a span { background-color:#bd1550;}
+body#purple #content .block_other .block_portfolio a:hover { background-position: left -77px; color:#bd1550;}
+body#purple .ad-image-description {border-left: 5px solid #bd1550;}
+body#purple #footer #logo_footer a { background:url(../images/logo_f_purple.jpg) no-repeat;}
+body#purple.dark_theme #footer #logo_footer a { background-image:url(../images/logo_f_purple_dark.jpg);}
+
+
+body#dark_red.dark_theme #header .block_mid #logo a { background-image:url(../images/logo_red_dark.jpg);}
+body#dark_red #header .block_mid #logo a{background-image:url(../images/logo_red.jpg);}
+body#dark_red #menu>ul>li ul>li a:hover, 
+body#dark_red #menu>ul>li ul>li a.active { color:#bb0101;}
+body#dark_red #menu>ul>li>a:hover, 
+body#dark_red #menu>ul>li>a.active,
+body#dark_red #content .block_slogan p span,
+body#dark_red a.button:hover *,
+body#dark_red a.button_big:hover *,
+body#dark_red h2 a:hover,
+body#dark_red h3 a:hover,
+body#dark_red h4 a:hover,
+body#dark_red h5 a:hover,
+body#dark_red ul.list_1 li a:hover,
+body#dark_red ul.list_2 li a:hover,
+body#dark_red ul.list_3 li a:hover,
+body#dark_red ul.list_4 li a:hover,
+body#dark_red ul.list_5 li a:hover,
+body#dark_red ul.list_6 li a:hover,
+body#dark_red .see_big .description .title a:hover,
+body#dark_red #content .block_other .block_twitter .text a,
+body#dark_red #content .block_other .block_blog .text p a:hover,
+body#dark_red .main_link,
+body#dark_red #content .block_about_services .column .num,
+body#dark_red #content .block_tabs .tab_cont .content .tab_cols a:hover,
+body#dark_red #content .block_recent_posts .post .text p a:hover,
+body#dark_red ul.list2 li a:hover,
+body#dark_red .toggler_blocks a.toggler.acordion.opened span,
+body#dark_red .block_table_type1 h3 span, 
+body#dark_red .block_pricing_table h3 span,
+body#dark_red .view_more:hover,
+body#dark_red table.table_type1 .title span,
+body#dark_red .pricing_table .info p b,
+body#dark_red #sitemap>li, 
+body#dark_red #sitemap>li>a,
+body#dark_red ul.archives_list li a,
+body#dark_red #content .block_filter li a:hover, 
+body#dark_red #content .block_filter li a.active,
+body#dark_red #content .block_portfolio_c2 .img_box>div>a:hover .title,
+body#dark_red #content .block_portfolio_c2_t2 .description a:hover,
+body#dark_red #content .block_portfolio_c3 .img_box>div>a:hover .title,
+body#dark_red #content .block_portfolio_c3_t2 .description a:hover,
+body#dark_red #content .block_portfolio_c4 .img_box>div>a:hover .title,
+body#dark_red #content .block_portfolio_c4_t2 .description a:hover,
+body#dark_red #content .block_portfolio_c2_wl .description a:hover,
+body#dark_red #content .block_portfolio_c3_wl .description a:hover,
+body#dark_red #content .block_portfolio_c4_wl .description a:hover,
+body#dark_red #content .block_portfolio_c4_ws .description a:hover,
+body#dark_red #content .block_p_item .block_p_info a,
+body#dark_red #content .block_blog .title .blog_info li a, 
+body#dark_red #content .block_blog_type2 .title .blog_info li a, 
+body#dark_red #content .block_blog_type3 .title .blog_info li a, 
+body#dark_red #content .block_blog_type4 .blog_info li a, 
+body#dark_red #content .block_blog_type5 .title .blog_info li a, 
+body#dark_red #content .block_blog_type6 .title .blog_info li a,
+body#dark_red #content .block_blogs_nav a:hover,
+body#dark_red #content .block_recent_comments li a:hover,
+body#dark_red #content .tags a,
+body#dark_red .block_comments .box_comment .comment .reply a,
+body#dark_red .block_comments .box_comment .comment .comment_title .user a:hover,
+body#dark_red .block_comments_form .comment_input span span,
+body#dark_red #content .post_type2 .blog_info li a,
+body#dark_red .block_contact_us .title p { color:#bb0101;}
+body#dark_red #my_slider .prev_my_slider a span,
+body#dark_red #my_slider .next_my_slider a span { background-color:#bb0101;}
+body#dark_red #content .block_other .block_portfolio a:hover { background-position: left -90px; color:#bb0101;}
+body#dark_red .ad-image-description {border-left: 5px solid #bb0101;}
+body#dark_red #footer #logo_footer a { background:url(../images/logo_f_red.jpg) no-repeat;}
+body#dark_red.dark_theme #footer #logo_footer a { background-image:url(../images/logo_f_red_dark.jpg);}
+
+
+body#orange a.button.green:hover *,
+body#orange a.button.blue:hover *,
+body#orange a.button.dark_red:hover *,
+body#orange a.button.orange:hover *,
+body#orange a.button.purple:hover *,
+body#orange a.button.yellow:hover *,
+body#orange a.button_big.green:hover *,
+body#orange a.button_big.blue:hover *,
+body#orange a.button_big.dark_red:hover *,
+body#orange a.button_big.orange:hover *,
+body#orange a.button_big.purple:hover *,
+body#orange a.button_big.yellow:hover *,
+body#green a.button.green:hover *,
+body#green a.button.blue:hover *,
+body#green a.button.dark_red:hover *,
+body#green a.button.orange:hover *,
+body#green a.button.purple:hover *,
+body#green a.button.yellow:hover *,
+body#green a.button_big.green:hover *,
+body#green a.button_big.blue:hover *,
+body#green a.button_big.dark_red:hover *,
+body#green a.button_big.orange:hover *,
+body#green a.button_big.purple:hover *,
+body#green a.button_big.yellow:hover *,
+body#blue a.button.green:hover *,
+body#blue a.button.blue:hover *,
+body#blue a.button.dark_red:hover *,
+body#blue a.button.orange:hover *,
+body#blue a.button.purple:hover *,
+body#blue a.button.yellow:hover *,
+body#blue a.button_big.green:hover *,
+body#blue a.button_big.blue:hover *,
+body#blue a.button_big.dark_red:hover *,
+body#blue a.button_big.orange:hover *,
+body#blue a.button_big.purple:hover *,
+body#blue a.button_big.yellow:hover *,
+body#yellow a.button.green:hover *,
+body#yellow a.button.blue:hover *,
+body#yellow a.button.dark_red:hover *,
+body#yellow a.button.orange:hover *,
+body#yellow a.button.purple:hover *,
+body#yellow a.button.yellow:hover *,
+body#yellow a.button_big.green:hover *,
+body#yellow a.button_big.blue:hover *,
+body#yellow a.button_big.dark_red:hover *,
+body#yellow a.button_big.orange:hover *,
+body#yellow a.button_big.purple:hover *,
+body#yellow a.button_big.yellow:hover *,
+body#purple a.button.green:hover *,
+body#purple a.button.blue:hover *,
+body#purple a.button.dark_red:hover *,
+body#purple a.button.orange:hover *,
+body#purple a.button.purple:hover *,
+body#purple a.button.yellow:hover *,
+body#purple a.button_big.green:hover *,
+body#purple a.button_big.blue:hover *,
+body#purple a.button_big.dark_red:hover *,
+body#purple a.button_big.orange:hover *,
+body#purple a.button_big.purple:hover *,
+body#purple a.button_big.yellow:hover *,
+body#dark_red a.button.green:hover *,
+body#dark_red a.button.blue:hover *,
+body#dark_red a.button.dark_red:hover *,
+body#dark_red a.button.orange:hover *,
+body#dark_red a.button.purple:hover *,
+body#dark_red a.button.yellow:hover *,
+body#dark_red a.button_big.green:hover *,
+body#dark_red a.button_big.blue:hover *,
+body#dark_red a.button_big.dark_red:hover *,
+body#dark_red a.button_big.orange:hover *,
+body#dark_red a.button_big.purple:hover *,
+body#dark_red a.button_big.yellow:hover * { color: #fff;}

@@ -1,9 +1,35 @@
-<html>
-<head>
-<title>Hello World!</title>
-</head>
-<body>
-Hello LAWA world!
-</body>
-</html>
+---
+layout: default
+title: Home
+header: start here
+group: navigation
+theme :
+  name : lawa
+---
+{% include L/setup %}
 
+<div class="ad-gallery">
+  <div class="ad-image-wrapper">
+    <div id="ad-image-description"></div>
+  </div>
+  <div class="ad-nav">
+    <div class="ad-thumbs">
+      <ul class="ad-thumb-list">
+        <li>
+          <a href="{{ ASSET_PATH }}/images/thumbs/slider_img1.jpg"><img src="{{ ASSET_PATH }}/images/thumbs/slider_img_thumbs1.jpg"
+                                                       alt="Beautiful shoes."/></a>
+        </li>
+        <li>
+          <a href="{{ ASSET_PATH }}/images/thumbs/slider_img5.jpg"><img src="{{ ASSET_PATH }}/images/thumbs/slider_img_thumbs5.jpg"
+                                                       alt="Limited runs."/></a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+<div class="line"></div>
+<div class="block_slogan">
+  <p>At <span>Love Art Wear Art</span> we create beautiful, wearable, handmade shoes for shoe lovers that appreciate quality & uniqueness.</p>
+</div>
+<div class="line"></div>
+</div>

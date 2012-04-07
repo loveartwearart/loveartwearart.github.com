@@ -1,0 +1,17 @@
+@charset "utf-8";
+/* CSS Document */
+
+#setting_themes_block{ width:177px; position:fixed; left:0px; top:200px; overflow:visible; z-index:9000;}
+#setting_themes_block .themes_top{ width:177px; height:10px; overflow:hidden; background:url(../images/themes/themes_bg.png) left top no-repeat;}
+#setting_themes_block .themes_content { width:142px; min-height:44px; overflow: visible; background:url(../images/themes/themes_bg.png) -177px top repeat-y; position:relative; padding:3px 19px 10px 16px;}
+#setting_themes_block #themes_button { position:absolute; right:-27px; top:11px; width:30px; height:33px; background:url(../images/themes/themes_bg.png) right top no-repeat;}
+#setting_themes_block #themes_button * { cursor: pointer;}
+#setting_themes_block #themes_button span{ display:block; width:17px; height:17px; overflow: hidden; margin:7px 0 0 4px; background:url(../images/themes/themes_bg.png) -17px -20px no-repeat;}
+#setting_themes_block.close #themes_button span{ background-position: 0px -20px;}
+#setting_themes_block .themes_content p{ font: bold 11px/20px Arial, Helvetica, sans-serif; color:#888888;}
+#setting_themes_block .themes_content select{ display:block; box-sizing: border-box; width:139px; height:28px; font: normal 12px/16px Arial, Helvetica, sans-serif; color:#a4a4a4; background: #FFF; border: 1px solid #e8e8e8; border-radius:5px; padding:5px; padding-right:3px; margin:4px 0 12px;}
+#setting_themes_block .themes_content .theame_box { margin-bottom:12px;}
+#setting_themes_block .themes_content .c_theame,
+#setting_themes_block .themes_content .bg_patterns { display:block; width:24px; height:19px; float:left; margin: 4px 4px 0 0;}
+#setting_themes_block .themes_bottom { width:177px; height:10px; overflow:hidden; background:url(../images/themes/themes_bg.png) left -10px no-repeat;}
+#setting_themes_block #themes_reset { font: normal 11px/16px Arial, Helvetica, sans-serif; color:#0a71a0;}
