@@ -54,7 +54,7 @@ L :
   analytics :
     provider : google
     google :
-        tracking_id : 'UA-123-12'
+        tracking_id : 'UA-21020675-1'
 
   BASE_PATH : false
   ASSET_PATH : false
