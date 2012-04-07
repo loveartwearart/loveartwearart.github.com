@@ -1369,13 +1369,13 @@ body.stretched #wrapper { width:100%; min-width:982px; background: #FFFFFF url(.
 	#content .block_other .block_contact .textarea_box textarea { background:none; border: none; display:block; margin:3px 10px; height:51px; width:186px; font: italic 10px/20px 'Droid Serif', serif; color:#949494; resize:none;}
 	#content .block_other .block_contact .textarea_box span 	  { background:none; border: none; display:block; padding:3px 10px; height:51px; width:186px; font: italic 10px/20px 'Droid Serif', serif; color:#949494; cursor:text;}
 
-	#footer { height: 63px; background:url(../images/bg_footer.jpg) repeat-x left bottom;}
+	#footer { height: 93px; background:url(../images/bg_footer.jpg) repeat-x left bottom;}
 	#footer .block_footer{ margin-top:14px;}
 	#footer #logo_footer { float:left;}
-	#footer #logo_footer a { display:block; width:136px; height:30px; background:url(../images/logo_f.jpg) no-repeat; text-indent:9000px;}
-	#footer .block_copyrights { float:left; margin-left:12px; padding-left:14px; border-left: 1px solid #f5f5f5;}
+	#footer #logo_footer a { display:block; width:136px; height:60px; background:url(../images/logo_f.jpg) no-repeat; text-indent:9000px;}
+	#footer .block_copyrights { float:left; margin-left:12px; margin-top:15px; padding-left:14px; border-left: 1px solid #f5f5f5;}
 	#footer .block_copyrights p{ font: normal 11px/16px Arial, Helvetica, sans-serif; color:#b5b5b5;}
-	#footer .block_social_footer { float:right; margin-top:6px;}
+	#footer .block_social_footer { float:right; margin-top:21px;}
 	#footer .block_social_footer a{ float:left; display:block; width:18px; height:18px; margin-left:4px; background-image:url(../images/soc_images.png); background-repeat: no-repeat; text-indent: 9000px;}
 	#footer .block_social_footer a:hover { background-position: 0 -18px;}
 	#footer .block_social_footer a.twitter{ background-position: -22px 0;}
