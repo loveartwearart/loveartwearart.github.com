@@ -1383,3 +1383,9 @@ body.stretched #wrapper { width:100%; min-width:982px; background: #FFFFFF url(.
 	#footer .block_social_footer a.rss{ background-position: -44px 0;}
 	#footer .block_social_footer a.rss:hover { background-position: -44px -18px;}
 	#footer .block_social_footer p { float:left; font: italic 10px/18px 'Droid Serif', serif; color:#aaaaaa; margin:1px 4px 0 0;}
+
+/* changes */
+
+.spaced-paragraph p {
+    margin-bottom: 20px;
+}
