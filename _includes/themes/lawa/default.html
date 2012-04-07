@@ -47,17 +47,30 @@
 	            </div>
             </div>
             <div class="line"></div>
-            <div class="block_mid">
-	            <div id="logo">
-	            	<a href="{{ HOME_PATH }}"><img src="{{ ASSET_PATH }}/images/logo.jpg" alt="{{site.title}}" title="{{ site.title }}" /></a>
-	            </div>
-                <div id="menu">
-                  <ul>
-                    {% assign pages_list = site.pages %}
-                    {% assign group = 'navigation' %}
-                    {% include L/pages_list %}
-                  </ul>
-                </div>
+            <div id="logo" style="display: inline;">
+              <a href="{{ HOME_PATH }}"><img src="{{ ASSET_PATH }}/images/logo.jpg" alt="{{site.title}}" title="{{ site.title }}" /></a>
+            </div>
+
+            <div style="display: inline-block">
+              <div class="block_mid">
+                  <div id="menu">
+                    <ul>
+                      {% for menu_item in site.menu %}
+
+                        {% if page.url == menu_item.url %}
+                        <li class="active">
+                          <a href="{{ menu_item.url }}" class="active">{{menu_item.title}}<span>{{menu_item.tagline}}</span></a>
+                        </li>
+                        {% else %}
+                        <li>
+                          <a href="{{ menu_item.url }}">{{menu_item.title}}<span>{{menu_item.tagline}}</span></a>
+                        </li>
+                        {% endif %}
+
+                      {% endfor%}
+                    </ul>
+                  </div>
+              </div>
             </div>
             <div class="line"></div>
         </div>

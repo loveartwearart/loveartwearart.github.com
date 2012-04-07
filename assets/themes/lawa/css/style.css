@@ -555,7 +555,7 @@ body.stretched #wrapper { width:100%; min-width:982px; background: #FFFFFF url(.
 	#header .block_mid { padding: 22px 0; height:51px; overflow:visible;}
 	#header .block_mid #logo { float:left; height:51px; overflow:hidden; margin-top:-1px;}
 	#header .block_mid #logo a { display:block; width:163px; height:51px; background:url(../images/logo.jpg) no-repeat left top; text-indent:9000px;}
-	#header .block_mid #logo a:hover { background-position: left bottom }
+	/* #header .block_mid #logo a:hover { background-position: left bottom } */
 		#menu { float:right; overflow:visible;}
 		#menu>ul { display:block; border-left: solid 1px #f2f2f2; height:56px;}
 		#menu>ul>li { float:left; background:none; padding:0px; margin:5px 0 5px 37px; position:relative; height:46px;}

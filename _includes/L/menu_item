@@ -1,0 +1,9 @@
+{% if page.url == menu_item_page.url %}
+<li class="active">
+  <a href="{{ menu_item_page.url }}" class="active">{{menu_item_page.title}}<span>{{menu_item_page.header}}</span></a>
+</li>
+{% else %}
+<li>
+  <a href="{{ menu_item_page.url }}">{{node.title}}<span>{{menu_item_page.header}}</span></a>
+</li>
+{% endif %}

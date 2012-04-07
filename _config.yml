@@ -28,6 +28,26 @@ author :
 #
 production_url : http://loveartwearart.github.com
 
+menu :
+  - url: /index.html
+    title: Home
+    tagline: start here
+  - url: /about_us.html
+    title: About us
+    tagline: all about lawa
+  - url: /contact_us.html
+    title: Contact us
+    tagline: reach out
+  - url: /stockists.html
+    title: Stockists
+    tagline: where to buy
+  - url: /press.html
+    title: Press
+    tagline: hear about us
+  - url: /gallery.html
+    title: Gallery
+    tagline: see the shoes
+
 L :
   version : 0.1
 
