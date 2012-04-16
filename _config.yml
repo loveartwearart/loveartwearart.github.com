@@ -37,16 +37,17 @@ menu :
     tagline: all about lawa
   - url: /contact_us.html
     title: Contact us
-    tagline: reach out
+    tagline: get in touch
+  - url: /gallery.html
+    title: Gallery
+    tagline: see the shoes
   - url: /stockists.html
     title: Stockists
     tagline: where to buy
   - url: /press.html
     title: Press
-    tagline: hear about us
-  - url: /gallery.html
-    title: Gallery
-    tagline: see the shoes
+    tagline: read about us
+  
 
 L :
   version : 0.1
