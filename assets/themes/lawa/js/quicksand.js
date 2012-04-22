@@ -10,6 +10,7 @@ function pretty(){
 }
 function see_big2(){
 	$('.see_big2>div').hover(function(){
+    $(this).find('.description').show();
 		trueHeight = $(this).find('.description').height();
 		$(this).find('.description').animate({
 			'padding-bottom': 16
@@ -18,9 +19,11 @@ function see_big2(){
 			$(this).find('.description').animate({
 				'padding-bottom': 12
 				}, 100);
+      $(this).find('.description').hide();
 		})
 	}
 $(document).ready(function() {
+  $('.description').hide();
 	see_big2();
 	$('.filter_conteiner .filter_box').each(function(index, element) {
 		$(this).attr('data-type',$(this).attr('title')).attr('data-id','item'+index).removeAttr('title');
