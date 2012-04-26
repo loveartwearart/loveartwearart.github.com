@@ -1,7 +1,16 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
-<head>
+<head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# loveartwearart: http://ogp.me/ns/fb/loveartwearart#">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+{%if page.facebook_object%}
+    <meta property="fb:app_id" content="{{ page.facebook_app_id }}" />
+    <meta property="og:type"   content="{{ page.facebook_og_type }}" />
+    <meta property="og:url"    content="{{ site.production_url }}{{ page.url }}" />
+    <meta property="og:title"  content="{{ page.title }}" />
+    <meta property="og:image"  content="{{ site.production_url }}{{ page.facebook_og_image }}" />
+{%endif%}
+
 <title>{{ site.title }} - {{ page.title }}</title>
 
 {% if page.description %}<meta name="description" content="{{ page.description }}">{% endif %}
