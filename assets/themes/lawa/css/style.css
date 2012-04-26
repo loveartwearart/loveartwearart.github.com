@@ -311,7 +311,7 @@ table.table_type1 .title span { color:#d42d17;}
 	-webkit-box-shadow: #f0f0f0 0px 2px 5px;
 	-moz-box-shadow: #f0f0f0 0px 2px 5px;
 	box-shadow: #f0f0f0 0px 2px 5px;
-	behavior: url(js/PIE.htc);
+	behavior: url(/assets/themes/lawa/js/PIE.htc);
 }
 .pricing_table .title{
 	height: 39px;
@@ -340,14 +340,14 @@ table.table_type1 .title span { color:#d42d17;}
 	-webkit-border-radius: 4px 0 0 4px;
 	-moz-border-radius: 4px 0 0 4px;
 	border-radius: 4px 0 0 4px;
-	behavior: url(js/PIE.htc);
+	behavior: url(/assets/themes/lawa/js/PIE.htc);
 }
 .pricing_table .column.last {
 	width:165px; 
 	-webkit-border-radius: 0 4px 4px 0;
 	-moz-border-radius: 0 4px 4px 0;
 	border-radius: 0 4px 4px 0;
-	behavior: url(js/PIE.htc);
+	behavior: url(/assets/themes/lawa/js/PIE.htc);
 }
 .pricing_table .column.special {
 	width:179px;
@@ -357,7 +357,7 @@ table.table_type1 .title span { color:#d42d17;}
 	-webkit-border-radius: 4px 4px 0 0;
 	-moz-border-radius: 4px 4px 0 0;
 	border-radius: 4px 4px 0 0;
-	behavior: url(js/PIE.htc);
+	behavior: url(/assets/themes/lawa/js/PIE.htc);
 }
 .pricing_table .column.special .price_block { height:64px;}
 .pricing_table .column.special .price_block .price{ font: bold 16px/24px Arial, Helvetica, sans-serif; color:#343434;}
@@ -374,7 +374,7 @@ table.table_type1 .title span { color:#d42d17;}
 	background: -o-linear-gradient(#FCFCFC, #f8f8f8);
 	background: linear-gradient(#FCFCFC, #f8f8f8);
 	-pie-background: linear-gradient(#FCFCFC, #f8f8f8);
-	behavior: url(js/PIE.htc);
+	behavior: url(/assets/themes/lawa/js/PIE.htc);
 	cursor:pointer;
 }
 .toggler_blocks a.toggler>span { display:block; height: 35px; background:url(../images/toggler_mark.png) no-repeat 10px 8px; padding-left:36px; font: normal 10px/34px 'Droid Sans', sans-serif; color:#737373;}
@@ -385,19 +385,19 @@ table.table_type1 .title span { color:#d42d17;}
 	-webkit-border-radius: 3px 3px 0 0;
 	-moz-border-radius: 3px 3px 0 0;
 	border-radius: 3px 3px 0 0;
-	behavior: url(js/PIE.htc);
+	behavior: url(/assets/themes/lawa/js/PIE.htc);
 }
 .toggler_blocks a.toggler.last {
 	-webkit-border-radius: 0 0 3px 3px;
 	-moz-border-radius: 0 0 3px 3px;
 	border-radius: 0 0 3px 3px;
-	behavior: url(js/PIE.htc);
+	behavior: url(/assets/themes/lawa/js/PIE.htc);
 }
 .toggler_blocks a.toggler.unique {
 	-webkit-border-radius: 3px;
 	-moz-border-radius: 3px;
 	border-radius: 3px;
-	behavior: url(js/PIE.htc);
+	behavior: url(/assets/themes/lawa/js/PIE.htc);
 }
 .toggler_blocks a.toggler.last.opened {
 	-webkit-border-radius: 0;
@@ -416,7 +416,7 @@ table.table_type1 .title span { color:#d42d17;}
 	-webkit-border-radius:5px;
 	-moz-border-radius:5px;
 	border-radius:5px;
-	behavior: url(js/PIE.htc);
+	behavior: url(/assets/themes/lawa/js/PIE.htc);
 }
 .toggler_blocks.type2 a.toggler:first-child { margin-top:0px;}
 .toggler_blocks.type2 a.toggler span { background:url(../images/toggler_mark2.png) no-repeat 8px 6px; color:#343434; padding-left:31px; line-height:30px;}
@@ -462,7 +462,7 @@ table.table_type1 .title span { color:#d42d17;}
 	background: -o-linear-gradient(#F1FBFF, #f0f8ff);
 	background: linear-gradient(#F1FBFF, #f0f8ff);
 	-pie-background: linear-gradient(#F1FBFF, #f0f8ff);
-	behavior: url(js/PIE.htc);
+	behavior: url(/assets/themes/lawa/js/PIE.htc);
 }
 .info_box>div { height:30px; background:url(../images/icon_info.png) no-repeat 12px 15px; padding:16px 12px 0 34px;}
 
@@ -479,7 +479,7 @@ table.table_type1 .title span { color:#d42d17;}
 	background: -o-linear-gradient(#F6FDE7, #eafac1);
 	background: linear-gradient(#F6FDE7, #eafac1);
 	-pie-background: linear-gradient(#F6FDE7, #eafac1);
-	behavior: url(js/PIE.htc);
+	behavior: url(/assets/themes/lawa/js/PIE.htc);
 }
 .download_box>div { height:30px; background:url(../images/icon_ok.png) no-repeat 12px 15px; padding:16px 12px 0 34px;}
 
@@ -496,7 +496,7 @@ table.table_type1 .title span { color:#d42d17;}
 	background: -o-linear-gradient(#FFEDED, #ffe7e5);
 	background: linear-gradient(#FFEDED, #ffe7e5);
 	-pie-background: linear-gradient(#FFEDED, #ffe7e5);
-	behavior: url(js/PIE.htc);
+	behavior: url(/assets/themes/lawa/js/PIE.htc);
 }
 .error_box>div { height:30px; background:url(../images/icon_error.png) no-repeat 12px 15px; padding:16px 12px 0 34px;}
 
@@ -513,7 +513,7 @@ table.table_type1 .title span { color:#d42d17;}
 	background: -o-linear-gradient(#FFF8E6, #fff4d4);
 	background: linear-gradient(#FFF8E6, #fff4d4);
 	-pie-background: linear-gradient(#FFF8E6, #fff4d4);
-	behavior: url(js/PIE.htc);
+	behavior: url(/assets/themes/lawa/js/PIE.htc);
 }
 .note_box>div { height:30px; background:url(../images/icon_note.png) no-repeat 12px 15px; padding:16px 12px 0 34px;}
 
@@ -568,7 +568,7 @@ body.stretched #wrapper { width:100%; min-width:982px; background: #FFFFFF url(.
 			-webkit-border-radius: 4px;
 			-moz-border-radius: 4px;
 			border-radius: 4px;
-			behavior: url(js/PIE.htc);
+			behavior: url(/assets/themes/lawa/js/PIE.htc);
 		}
 		#menu>ul>li ul>li { display:block; position:relative; float: none; height:30px; margin:0 0 0 3px; padding-right:0px; border-top:1px solid #f7f7f7; padding-left:8px;}
 		#menu>ul>li ul>li:first-child { border-top: none;}
@@ -625,13 +625,13 @@ body.stretched #wrapper { width:100%; min-width:982px; background: #FFFFFF url(.
 		-moz-border-radius:  3px 3px 0 0;
 		border-radius:  3px 3px 0 0;
 		background: url(../images/bg_tabs.jpg) repeat-x;
-		behavior: url(js/PIE.htc);
+		behavior: url(/assets/themes/lawa/js/PIE.htc);
 	}
 	#content .block_tabs .tabs_buttons li a.active {
 		color:#424242;
 		border-bottom: 1px solid #fff;
 		background: #FFFFFF;
-		behavior: url(js/PIE.htc);
+		behavior: url(/assets/themes/lawa/js/PIE.htc);
 	}
 	#content .block_tabs .tab_cont { padding: 15px 12px 12px;
 		display: none;
@@ -639,7 +639,7 @@ body.stretched #wrapper { width:100%; min-width:982px; background: #FFFFFF url(.
 		-webkit-border-radius: 0 0 3px 3px;
 		-moz-border-radius: 0 0 3px 3px;
 		border-radius: 0 0 3px 3px;
-		behavior: url(js/PIE.htc);
+		behavior: url(/assets/themes/lawa/js/PIE.htc);
 	}
 	#content .block_tabs .tab_cont.active { display: block;}
 	#content .block_tabs .tab_cont .icon { width:31px; height:31px; float:left; margin-top:3px;}
