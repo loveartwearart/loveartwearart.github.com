@@ -12,7 +12,39 @@
   </div>
 </div>
 
-<div class="separator"></div>
+<div id="fb-root"></div>
+<script>
+    // Load the SDK Asynchronously
+    (function(d){
+        var js, id = 'facebook-jssdk', ref = d.getElementsByTagName('script')[0];
+        if (d.getElementById(id)) {return;}
+        js = d.createElement('script'); js.id = id; js.async = true;
+        js.src = "//connect.facebook.net/en_US/all.js";
+        ref.parentNode.insertBefore(js, ref);
+    }(document));
+
+    // Init the SDK upon load
+    window.fbAsyncInit = function() {
+        FB.init({
+            appId      : '187885974666448', // App ID
+            channelUrl : '//'+window.location.hostname+'/channel.html', // Path to your Channel File
+            status     : true, // check login status
+            cookie     : true, // enable cookies to allow the server to access the session
+            xfbml      : true  // parse XFBML
+        });
+        document.getElementById('love-link').addEventListener('click', function(){
+            FB.login(function() {
+                FB.api('/me/loveartwearart:love', 'post', {shoe: "{{ site.production_url }}{{ page.url }}"}, function(love){
+
+                })
+            }, {scope: "publish_actions"});
+        });
+    }
+</script>
+
+<div style="text-align:center"><a id="love-link" href="javascript:true">Click here to love {{ page.title }} on Facebook!</a></div>
+
+<br/>
 
 <img src="{{ page.facebook_og_image }}"/>
 
