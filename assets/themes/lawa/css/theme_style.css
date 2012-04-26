@@ -181,7 +181,7 @@ body.dark_theme .pricing_table .column.special {
 	-webkit-box-shadow: #1b1b1b 0px 2px 5px;
 	-moz-box-shadow: #1b1b1b 0px 2px 5px;
 	box-shadow: #1b1b1b 0px 2px 5px;
-	behavior: url(js/PIE.htc);
+	behavior: url(../js/PIE.htc);
 }
 
 body.dark_theme #content .page_title .page_description,
