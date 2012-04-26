@@ -64,7 +64,7 @@
 	-webkit-border-radius: 4px;
 	-moz-border-radius: 4px;
 	border-radius: 4px;
-	behavior: url(../js/PIE.htc);
+	behavior: url(/assets/themes/lawa/js/PIE.htc);
 }
 .nivo-caption p {
 	padding:10px 12px;
