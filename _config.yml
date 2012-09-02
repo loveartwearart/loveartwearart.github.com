@@ -34,13 +34,13 @@ menu :
     tagline: start here
   - url: /about_us.html
     title: About us
-    tagline: all about lawa
-  - url: /contact_us.html
-    title: Contact us
     tagline: get in touch
   - url: /gallery.html
     title: Gallery
     tagline: see the shoes
+  - url: /wedding.html
+    title: Wedding
+    tagline: collection
   - url: /stockists.html
     title: Stockists
     tagline: where to buy
