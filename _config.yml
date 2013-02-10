@@ -37,16 +37,16 @@ menu :
     tagline: get in touch
   - url: /gallery.html
     title: Gallery
-    tagline: see the shoes
+    tagline: all our shoes
   - url: /wedding.html
     title: Bridal
     tagline: collection
   - url: /stockists.html
     title: Stockists
     tagline: where to buy
-  - url: /press.html
-    title: Press
-    tagline: read about us
+  - url: /shop.html
+    title: Shop
+    tagline: coming soon
   
 
 L :
