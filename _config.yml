@@ -35,9 +35,6 @@ menu :
   - url: /about_us.html
     title: About us
     tagline: get in touch
-  - url: /gallery.html
-    title: Gallery
-    tagline: all our shoes
   - url: /wedding.html
     title: Bridal
     tagline: collection
