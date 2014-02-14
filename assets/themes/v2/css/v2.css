@@ -120,6 +120,8 @@ body {
     font-family: Playball;
     font-size: 40px;
     text-align: center;
+    font-weight: lighter;
+    line-height: 110%;
     color: rgb(216, 167, 160);
     padding: 0px 0px 0px 130px;
 }
@@ -143,15 +145,27 @@ body {
 }
 
 @media (max-width: 992px) {
+    #shop-bridal-collection, #shop-honeymoon-collection {
+        padding: 0px;
+    }
     .card {
         margin: auto;
         text-align: center;
     }
+    .nav-title {
+        font-size: 30px;
+    }
+    .navbar-nav {
+        margin-top: 20px;
+        margin-left: 20px;
+    }
 }
 
 @media (max-width: 767px) {
+
+
     #shop-bridal-collection, #shop-honeymoon-collection {
-        font-size: 30px;
+        font-size: 36px;
         padding: 0px;
     }
 
