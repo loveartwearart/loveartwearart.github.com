@@ -82,7 +82,7 @@
           {% if page.url == menu_item.url %}
           <li class="active">
 
-            <a href="{{ menu_item.url }}">
+            <a href="/new{{ menu_item.url }}">
               <div class="nav-title">{{menu_item.title}}</div>
               <div class="nav-subtitle">{{menu_item.tagline}}</div>
             </a>
@@ -90,7 +90,7 @@
           </li>
           {% else %}
           <li>
-            <a href="{{ menu_item.url }}">
+            <a href="/new{{ menu_item.url }}">
               <div class="nav-title">{{menu_item.title}}</div>
               <div class="nav-subtitle">{{menu_item.tagline}}</div>
             </a>

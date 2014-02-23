@@ -97,7 +97,7 @@ body {
 }
 
 #content .block_slogan p span {
-    color: #d42d17;
+    color: rgb(216, 167, 160)
 }
 
 .caption {
@@ -110,6 +110,10 @@ body {
     padding: 12px 0px 12px 0px;
 }
 
+.caption:hover {
+    color: rgb(216, 167, 160)
+}
+
 .clear {
     height: 1px;
     background: none;
@@ -118,7 +122,7 @@ body {
 
 #shop-bridal-collection, #shop-honeymoon-collection {
     font-family: Playball;
-    font-size: 40px;
+    font-size: 35px;
     text-align: center;
     font-weight: lighter;
     line-height: 110%;
@@ -136,6 +140,10 @@ body {
     background-image: url('/assets/images/honeymoon_collection.jpg');
     max-width: 448px;
     height: 402px;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+    color: rgb(216, 167, 160)
 }
 
 @media (min-width: 1200px) {
@@ -165,7 +173,7 @@ body {
 
 
     #shop-bridal-collection, #shop-honeymoon-collection {
-        font-size: 36px;
+        font-size: 35px;
         padding: 0px;
     }
 
@@ -176,6 +184,9 @@ body {
 
     .card {
         margin: auto;
+    }
+    .navbar-nav {
+        max-height: 44px;
     }
 }
 
