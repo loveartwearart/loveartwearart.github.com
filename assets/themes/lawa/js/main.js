@@ -31,13 +31,13 @@ $(document).ready(function() {
 			$(this).find('ul').slideUp(100);
 			}
 	)
-	
+
 	$('#menu>ul>li>ul>li a').hover(function(){
 		$(this).animate({'padding-left': 3}, 100);
 		},function(){
 			$(this).animate({'padding-left': 0}, 100);
 			}
-	
+
 	)
 	$('#menu>ul>li>ul>li').hover(function(){
 		$(this).find('ul').slideDown('fast');

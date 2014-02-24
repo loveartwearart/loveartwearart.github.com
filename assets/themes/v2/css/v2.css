@@ -146,6 +146,18 @@ body {
     color: rgb(216, 167, 160)
 }
 
+h3 {
+    font-family: Playball;
+    color: rgb(216, 167, 160);
+    font-size: 30px;
+}
+
+h4 {
+    font: normal 15px/23px 'Oswald', sans-serif;
+    color: #adadad;
+    text-transform: uppercase;
+}
+
 @media (min-width: 1200px) {
     .container {
         width: 970px;
