@@ -146,6 +146,12 @@ body {
     color: rgb(216, 167, 160)
 }
 
+h1 {
+    font: normal 15px/23px 'Oswald', sans-serif;
+    color: rgb(216, 167, 160);
+    font-size: 1.5em;
+}
+
 h3 {
     font-family: Playball;
     color: rgb(216, 167, 160);
@@ -205,3 +211,9 @@ h4 {
 a:hover {
     text-decoration: none;
 }
+
+.page_navigation { float:right; margin-top:3px;}
+.page_navigation li { float:left; font: normal 11px/18px Arial, Helvetica, sans-serif; color:#828282; list-style-type: none}
+.page_navigation li.nav_line { margin:0 2px;}
+.page_navigation li a { font: normal 11px/18px Arial, Helvetica, sans-serif; color:#bdbdbd;}
+.page_navigation li a:hover { text-decoration: underline;}

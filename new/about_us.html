@@ -4,9 +4,26 @@ title: About us
 header: get in touch
 group: navigation
 theme :
-name : v2
+  name : v2
 ---
 {% include L/setup %}
+<div class="row">
+  <div class="col-md-4">
+    <h1>{{ page.title }}</h1>
+    <p class="page_description">{% if page.tagline %}{{ page.tagline }}{% endif %}</p>
+  </div>
+  <div class="col-md-offset-4 col-md-4">
+    <div class="page_navigation">
+      <ul>
+        <li><a href="{{ HOME_PATH }}">{{ site.title }}</a></li>
+        <li class="nav_line">/</li>
+        <li>{{ page.title }}</li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<div class="separator"></div>
 
 <div class="row">
   <div class="col-md-12">
