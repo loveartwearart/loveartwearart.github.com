@@ -110,6 +110,12 @@ body {
     padding: 12px 0px 12px 0px;
 }
 
+.caption-url {
+    font: normal 15px/23px 'Oswald', sans-serif;
+    color: rgb(216, 167, 160);
+    text-align: center;
+}
+
 .caption:hover {
     color: rgb(216, 167, 160)
 }
@@ -153,9 +159,10 @@ h1 {
 }
 
 h3 {
-    font-family: Playball;
+    font: normal 19px/24px 'Oswald', sans-serif;
     color: rgb(216, 167, 160);
-    font-size: 30px;
+    text-transform: uppercase;
+    margin-bottom: 15px;
 }
 
 h4 {
@@ -170,6 +177,7 @@ h4 {
     }
 }
 
+/* Styles for tablets */
 @media (max-width: 992px) {
     #shop-bridal-collection, #shop-honeymoon-collection {
         padding: 0px;
@@ -187,6 +195,7 @@ h4 {
     }
 }
 
+/* Styles for phones */
 @media (max-width: 767px) {
 
 
@@ -217,3 +226,79 @@ a:hover {
 .page_navigation li.nav_line { margin:0 2px;}
 .page_navigation li a { font: normal 11px/18px Arial, Helvetica, sans-serif; color:#bdbdbd;}
 .page_navigation li a:hover { text-decoration: underline;}
+
+.navbar-default  .navbar-nav>.active>a {
+    color: rgb(216, 167, 160);
+    background-color: transparent;
+}
+
+.navbar-default  .navbar-nav>.active>a:hover {
+    background-color: transparent;
+    color: rgb(216, 167, 160);
+}
+
+a[rel~=prettyPhoto] {
+    margin: auto;
+}
+
+.subtitle {
+    color: grey;
+    font-style: italic;
+    margin-bottom: 12px;
+}
+
+.wall-of-text {
+    text-align:justify;
+}
+
+.icon {
+    line-height: 27px;
+    height: 27px;
+    padding-left: 38px;
+    background: no-repeat left top;
+}
+
+.mail-icon {
+    background-image: url(../images/mail.jpg);
+}
+
+.phone-icon {
+    background-image: url(../images/phone.jpg);
+}
+
+p {
+    font: normal 12px/17px Arial, Helvetica, sans-serif;
+}
+
+a {
+    color: rgb(216, 167, 160);
+}
+
+.thumbnail {
+    border: none;
+}
+
+.thumbnail hr {
+    width: 80%;
+    margin-top: 10px;
+    margin-bottom: 4px;
+}
+
+.thumbnail-border {
+    border: 1px solid #ddd;
+}
+
+.thumbnail-stockists {
+    margin-bottom: 44px;
+}
+
+.thumbnail-stockists .caption {
+    padding-top: 3px;
+    padding-bottom: 4px;
+}
+
+
+
+b {
+    color: #8e8e8e;
+}

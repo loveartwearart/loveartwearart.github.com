@@ -80,12 +80,12 @@
       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
         <ul class="nav navbar-nav">
 
-          {% for menu_item in site.menu %}
+          {% for menu_item in site.newmenu %}
 
           {% if page.url == menu_item.url %}
           <li class="active">
 
-            <a href="/new{{ menu_item.url }}">
+            <a href="{{ menu_item.url }}">
               <div class="nav-title">{{menu_item.title}}</div>
               <div class="nav-subtitle">{{menu_item.tagline}}</div>
             </a>
@@ -93,7 +93,7 @@
           </li>
           {% else %}
           <li>
-            <a href="/new{{ menu_item.url }}">
+            <a href="{{ menu_item.url }}">
               <div class="nav-title">{{menu_item.title}}</div>
               <div class="nav-subtitle">{{menu_item.tagline}}</div>
             </a>
@@ -112,6 +112,18 @@
 
 <div id="content" class="container">
   {{ content }}
+
+  <div class="row">
+
+  <div class="line"></div>
+  <div class="block_slogan">
+    <p>At <span>Love Art Wear Art</span> we create beautiful, limited edition shoes for shoe lovers that appreciate quality & uniqueness.</p>
+  </div>
+  <div class="line"></div>
+  <div class="clear"></div>
+
+  </div>
+
 </div>
 
 <div id="footer" class="container">

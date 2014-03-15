@@ -45,6 +45,23 @@ menu :
     title: Shop
     tagline: buy them now
   
+newmenu :
+  - url: /new/index.html
+    title: Home
+    tagline: start here
+  - url: /new/about_us.html
+    title: About us
+    tagline: get in touch
+  - url: /new/stockists.html
+    title: Stockists
+    tagline: where to buy
+  - url: /new/press.html
+    title: Press
+    tagline: in the news
+  - url: http://shop.loveartwearart.com
+    title: Shop
+    tagline: buy them now
+
 
 L :
   version : 0.1
