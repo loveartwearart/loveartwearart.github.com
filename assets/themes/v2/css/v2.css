@@ -132,7 +132,6 @@ body {
     text-align: center;
     font-weight: lighter;
     line-height: 110%;
-    color: rgb(216, 167, 160);
     padding: 0 0 0 130px;
     background-size: 100%;
     background-repeat: no-repeat;
@@ -148,6 +147,14 @@ body {
     background-image: url('/assets/images/honeymoon_collection.jpg');
     max-width: 448px;
     height: 402px;
+}
+
+.shop-frontpage a:hover {
+    color: #666666;
+}
+
+.shop-frontpage a {
+    color: rgb(216, 167, 160);
 }
 
 .navbar-default .navbar-nav>li>a:hover {
