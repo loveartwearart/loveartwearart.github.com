@@ -134,6 +134,8 @@ body {
     line-height: 110%;
     color: rgb(216, 167, 160);
     padding: 0px 0px 0px 130px;
+    background-size: 100%;
+    background-repeat: no-repeat;
 }
 
 #shop-bridal-collection {
