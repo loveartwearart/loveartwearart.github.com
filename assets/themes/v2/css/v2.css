@@ -203,6 +203,7 @@ h4 {
     #shop-bridal-collection, #shop-honeymoon-collection {
         font-size: 35px;
         padding: 0;
+        height: 350px;
     }
 
     .navbar-nav {
