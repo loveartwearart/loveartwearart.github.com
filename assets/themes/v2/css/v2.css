@@ -100,9 +100,13 @@ body {
     color: rgb(216, 167, 160)
 }
 
+.thumbnail .caption {
+    color: rgb(216, 167, 160);
+}
+
 .caption {
     font: normal 15px/23px 'Oswald', sans-serif;
-    color: #adadad;
+    color: rgb(216, 167, 160);
     text-align: center;
     text-transform: uppercase;
     max-width: 290px;
@@ -117,7 +121,7 @@ body {
 }
 
 .caption:hover {
-    color: rgb(216, 167, 160)
+    color: #adadad;
 }
 
 .clear {
