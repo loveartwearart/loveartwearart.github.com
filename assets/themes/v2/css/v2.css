@@ -21,7 +21,7 @@ body {
 }
 
 .nav-title {
-    font-family: Playball,sans-serif;
+    font-family: Oranienbaum,sans-serif;
     font-size: 25px;
     font-weight: bold;
 }
@@ -239,7 +239,7 @@ a:hover {
 .page_navigation li a:hover { text-decoration: underline;}
 
 .navbar-default .navbar-nav>.active>a {
-    color: rgb(216, 167, 160);
+    color: #c99d97;
     background-color: transparent;
 }
 
