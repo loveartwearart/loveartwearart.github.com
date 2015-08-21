@@ -27,7 +27,8 @@ body {
 }
 
 .nav-subtitle {
-    font-size: 10px;
+    font-size: 12px;
+    <!--color: #777777-->
 }
 
 .navbar-nav {
