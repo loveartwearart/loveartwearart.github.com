@@ -318,3 +318,22 @@ b {
 .logo {
     width: 240px;
 }
+
+.pinterest-image {
+	position: relative;
+}
+.hover-pinterest {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	z-index: 999;
+	background-image: url('images/pinterest.png'); // path to pinterest logo
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	display: none;
+}
+.pin-it-link {
+	height: 100%;
+	width: 100%;
+	display: block;
+}
