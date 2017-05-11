@@ -31,6 +31,9 @@ menu :
   - url: http://shop.loveartwearart.com
     title: Shoes
     tagline: buy them now
+  - url: https://shop.loveartwearart.com/collections/bridal-handbags
+    title: Bags
+    tagline: the perfect clutch
   - url: /press.html
     title: Press
     tagline: our cover
@@ -40,15 +43,16 @@ menu :
   - url: /stockists.html
     title: Stockists
     tagline: where to try
-  - url: http://www.ebay.co.uk/usr/lawashoes?_trksid=p2047675.l2559
-    title: Outlet
-    tagline: end of line sales
+  
 
   
 newmenu :
   - url: http://shop.loveartwearart.com
     title: Shoes
     tagline: buy them now
+  - url: https://shop.loveartwearart.com/collections/bridal-handbags
+    title: Bags
+    tagline: the perfect clutch
   - url: /press.html
     title: Press
     tagline: our cover
@@ -58,9 +62,7 @@ newmenu :
   - url: /stockists.html
     title: Stockists
     tagline: where to try
-  - url: http://www.ebay.co.uk/usr/lawashoes?_trksid=p2047675.l2559
-    title: Outlet
-    tagline: end of line sales
+  
 
 ASSET_PATH : "/assets/themes/v2"
 
